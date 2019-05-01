@@ -32,6 +32,5 @@
 *.app
 
 # IDE specific (Code::Blocks)
-*.cbp
 bin/
 *.depend

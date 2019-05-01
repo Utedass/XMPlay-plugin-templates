@@ -131,7 +131,7 @@ XMPDSP plugin_interface = {
 };
 
 
-extern "C" XMPDSP * DLL_EXPORT XMPDSP_GetInterface2(DWORD face, InterfaceProc faceproc)
+extern "C" XMPDSP * DLL_EXPORT WINAPI XMPDSP_GetInterface2(DWORD face, InterfaceProc faceproc)
 {
     if (face!=XMPDSP_FACE) { // unsupported version
 
